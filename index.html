@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe 1st Floor</title>
+    <link rel="shortcut icon" href="css/images/favicon.jpg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css"> 
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slider.js"></script>
+</head>
+<body>
+    <!-- 건너뛰기 링크 시작-->
+    <a id="skipNav" href="#contentsArea">본문 바로가기</a>
+    <!-- 건너뛰기 링크 종료-->
+
+    <!-- 전체 홈페이지 영역 시작-->
+    <div id="wrapper">
+        <!-- 헤더 영역 시작-->
+        <header class="header">
+            <h1 class="logo">
+                <a href="index.html">Cafe 1st Floor</a>
+            </h1>
+            <ul class="header-right">
+                <li><a href="join.html" class="join">회원가입</a></li>
+                <li><a href="#" class="find">아이디/비밀번호 찾기</a></li>
+                <li><a href="#">ENGLISH</a></li>
+            </ul>
+            <!-- 로그인 영역 시작-->
+            <ul class="login">
+                <li><form action="login.jsp" method="post" id="loginForm" name="loginForm" class="login">
+                    <li><label for="userId">아이디</label>
+                        <input type="text" id="userId" name="userId" placeholder="Guest" required />
+                    </li>
+                    
+                    <li><label for="userPw">비밀번호</label>
+                    <input type="password" id="userPw" name="userPw" placeholder="4자이상 8자이하" required />
+                    </li>
+                    <button type="submit">로그인</button></p>
+                </form></li>
+            </ul>
+            <!-- 로그인 영역 끝-->
+            <!-- 메인 메뉴 시작-->
+            <nav>
+                <h2 class="hidden">메인 메뉴</h2>
+                <ul class="mainMenu">
+                    <li><a href="#">소개</a>
+                        <ul class="about1stFloor">
+                            <li><a href="#">소개</a></li>
+                            <li><a href="#">위치 및 연락처</a></li>
+                            <li><a href="#">연혁</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">매장</a>
+                        <ul class="now">
+                            <li><a href="#">좌석 현황</a></li>
+                            <li><a href="#">예약</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">메뉴</a>
+                        <ul class="menu">
+                            <li><a href="#">이용방법</a></li>
+                            <li><a href="#">음료</a></li>
+                            <li><a href="#">디저트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">쿠폰</a></li>
+                        <ul class="cupon">
+                            <li><a href="#">쿠폰 목록</a></li>
+                            <li><a href="#">쿠폰 이벤트</a></li>
+                        </ul>
+                    <li><a href="#">Q&A</a>
+                        <ul class="qna">
+                            <li><a href="#">고객의 소리</a></li>
+                            <li><a href="#">질의응답</a></li>
+                        </ul>
+                    </li>
+                    <li class="news"><a href="#">공지사항</a></li>
+                    <li class="review"><a href="#">리뷰</a></li>
+                </ul>
+            </nav>
+            <!-- 메인 메뉴 종료-->
+        </header>
+        <!-- 헤더 영역 종료-->
+
+        <!-- 메인 컨텐츠 영역 시작-->
+        <div id="contentsArea">
+
+            <!-- 슬라이더 시작-->
+            <div class="container">
+                <div class="sliderContainer">
+                    <div class="sliderListContainer">
+                        <div class="innerImg">
+                            <img class="slider_image" src="images/1 홀.jpg" alt="홀">
+                        </div>
+                        <div class="innerImg">
+                            <img class="slider_image" src="images/2 바카운터.jpg" alt="바카운터">
+                        </div>
+                        <div class="innerImg">
+                            <img class="slider_image" src="images/3 룸 레드.jpg" alt="레드">
+                        </div>
+                        <div class="innerImg">
+                            <img class="slider_image" src="images/4 룸 풀맨.jpg" alt="풀맨">
+                        </div>
+                        <div class="innerImg">
+                            <img class="slider_image" src="images/5 룸 씨어터.png" alt="씨어터">
+                        </div>
+                        <div class="innerImg">
+                            <img class="slider_image" src="images/6 테라스.jpg" alt="테라스">
+                        </div>
+                        <div class="innerImg">
+                            <img class="slider_image" src="images/00.png" alt="전경도">
+                        </div>
+                        <div class="innerImg">
+                            <img  class="slider_image" src="images/01.png" alt="평면도">
+                        </div>
+                    </div>
+                </div>
+                <div class="move">
+                    <a class="left">
+                    <img  src="images/마크 - 마법사.gif"/>
+                    </a>
+                    <a class="right">
+                    <img  src="images/마크 - 마법사.gif"/>
+                    </a>
+                </div>
+            </div>
+                <!-- <div class="slider_text_panel">
+                    <div class="slider_text">
+                        <h1>메인 홀</h1>
+                    </div>
+                    <div class="slider_text">
+                        <h1>트라이앵글 바 카운터</h1>
+                        <p> 바 좌석 이용 가능합니다.</p>
+                    </div>
+                    <div class="slider_text">
+                        <h1>레드</h1>
+                        <p> 고풍스러운 레드를 대관하세요!</p>
+                    </div>
+                    <div class="slider_text">
+                        <h1>풀맨</h1>
+                        <p> 카페의 기원과 기차의 만남</p>
+                    </div>
+                    <div class="slider_text">
+                        <h1>씨어터</h1>
+                        <p> 단 돈 만 원으로 인원 제한 없이 부티크를 대관합니다.</p>
+                    </div>
+                    <div class="slider_text">
+                        <h1>테라스</h1>
+                        <p> 도심 속 휴양지를 경험하세요!</p>
+                    </div>
+                    <div class="slider_text">
+                        <h1>전경도</h1>
+                        <p> 카페의 전경도입니다.</p>
+                    </div>
+                    <div class="slider_text">
+                        <h1>평면도</h1>
+                        <p> 카페의 평면도입니다.</p>
+                    </div>
+                </div> -->
+            </div>
+            <!-- 슬라이더 종료-->
+            <!-- 새소식, 이벤트, 화제의 사진 컬럼 시작-->
+            <div id="linkArea">
+                <div>
+                    <section class="news">
+                        <h2>새소식</h2>
+                        <article>
+                            <a href="#">
+                                <h3>새로운 얼굴이 나타났습니다!</h3>
+                                <time datetime="2021-10-04">2021.10.04</time>
+                                <p>새로운 바리스타 ㅇㅇ씨입니다!</p>
+                                <figure>
+                                    <img src="images/news.gif" alt="새소식" width="112" height="66"/>
+                                    <figcaption>새얼굴</figcaption>
+                                </figure>    
+                            </a>
+                            <a href="#" class="more" title="새소식 더보기">더보기</a>
+                        </article>
+                    </section>
+                </div>
+                <div class="eventRelatedArea">
+                    <section class="event">
+                        <h2>이벤트</h2>
+                        <div class="eventDetail">
+                            <a href="#">
+                                <p><em>크리스마스 이벤트</em>당일 고객 전원 대상!</p>
+                            </a>
+                        </div>
+                        <div class="btnEventArea">
+                            <a href="#" class="btnEventPrev">이전 이벤트 보기</a>
+                            <a href="#" class="btnEventNext">다음 이벤트 보기</a>
+                        </div>
+                    </section>
+                </div>
+                <section class="hotLink">
+                    <h2>화제의 사진</h2>
+                    <ol>
+                        <li class="no1"><a href="#">김박사와 학생들</a><em class="up">상승</em></li>
+                        <li class="no2"><a href="#">우리의 365일</a><em class="down">하락</em></li>
+                        <li class="no3"><a href="#">상견례</a><em class="stop">유지</em></li>
+                        <li class="no4"><a href="#">인스타 스타</a><em class="up">상승</em></li>
+                    </ol>
+                    <a href="#" class="more" title="인기사이트 더보기">더보기</a>
+                </section>
+            </div>
+            <!-- 새소식, 이벤트, 화제의 사진 컬럼 종료-->
+            <!-- 카페 찾기 시작-->
+            <div class="findCafe">
+                GPS나 길찾기~
+            </div>
+            <!-- 카페 찾기 종료-->
+        </div>
+        <!-- 메인 컨텐츠 영역 종료-->
+
+        <!-- 푸터 영역 시작-->
+        <footer id="footer">
+            <div id="footer-center">
+                <section class="guide">
+                    <h2 class="hidden">사이트 이용안내</h2>
+                    <ul>
+                        <li><a href="#">뉴스레터</a></li>
+                        <li><a href="#">개인정보 보호정책</a></li>
+                        <li><a href="#">채용정보</a></li>
+                    </ul>
+                </section>
+                <address>
+                    경기도 광주시 오포동 문형리
+                    · 전화: 010-6606-8607
+                    · E-MAIL: <a href="jirehseo@naver.com">jirehseo@naver.com</a>
+                </address>
+                <p class="copyright">Copyright &copy; since 2026 by Cafe 1st Floor CORPORATION ALL RIGHTS RESERVED</p>
+            </div>
+        </footer>
+        <!-- 푸터 영역 종료-->
+    </div>
+    <!-- 전체 홈페이지 영역 종료-->
+</body>
+</html>

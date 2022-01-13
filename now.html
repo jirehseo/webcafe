@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe 1st Floor : 좌석 현황</title>
+    <link rel="shortcut icon" href="css/images/favicon.jpg">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/now.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- 건너뛰기 링크 시작-->
+    <a id="skipNav" href="#contentsArea">본문 바로가기</a>
+    <!-- 건너뛰기 링크 종료-->
+
+    <!-- 전체 홈페이지 영역 시작-->
+    <div id="wrapper">
+        <!-- 헤더 영역 시작-->
+        <header class="header">
+            <h1 class="logo">
+                <a href="index.html">매장 현황</a>
+            </h1>
+            <ul class="header-right">
+                <li><a href="join.html" class="join">회원가입</a></li>
+                <li><a href="#" class="find">아이디/비밀번호 찾기</a></li>
+                <li><a href="#">ENGLISH</a></li>
+            </ul>
+            <!-- 로그인 영역 시작-->
+            <ul class="login">
+                <li><form action="login.jsp" method="post" id="loginForm" name="loginForm" class="login">
+                    <li><label for="userId">아이디</label>
+                        <input type="text" id="userId" name="userId" placeholder="Guest" required />
+                    </li>
+                    
+                    <li><label for="userPw">비밀번호</label>
+                    <input type="password" id="userPw" name="userPw" placeholder="4자이상 8자이하" required />
+                    </li>
+                    <button type="submit">로그인</button></p>
+                </form></li>
+            </ul>
+            <!-- 로그인 영역 끝-->
+            <!-- 메인 메뉴 시작-->
+            <nav>
+                <h2 class="hidden">메인 메뉴</h2>
+                <ul class="mainMenu">
+                    <li><a href="#">소개</a>
+                        <ul class="about1stFloor">
+                            <li><a href="#">소개</a></li>
+                            <li><a href="#">위치 및 연락처</a></li>
+                            <li><a href="#">연혁</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">매장</a>
+                        <ul class="now">
+                            <li><a href="#">좌석 현황</a></li>
+                            <li><a href="#">예약</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">메뉴</a>
+                        <ul class="menu">
+                            <li><a href="#">이용방법</a></li>
+                            <li><a href="#">음료</a></li>
+                            <li><a href="#">디저트</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">쿠폰</a></li>
+                        <ul class="cupon">
+                            <li><a href="#">쿠폰 목록</a></li>
+                            <li><a href="#">쿠폰 이벤트</a></li>
+                        </ul>
+                    <li><a href="#">Q&A</a>
+                        <ul class="qna">
+                            <li><a href="#">고객의 소리</a></li>
+                            <li><a href="#">질의응답</a></li>
+                        </ul>
+                    </li>
+                    <li class="news"><a href="#">공지사항</a></li>
+                    <li class="review"><a href="#">리뷰</a></li>
+                </ul>
+            </nav>
+            <!-- 메인 메뉴 종료-->
+        </header>
+        <!-- 헤더 영역 종료-->
+
+        <!-- 메인 컨텐츠 영역 시작-->
+        <div id="contentsArea">
+            <!-- 매장 현황 시작-->
+            <div class="slide">
+                <div id="slide">
+                    <img src="images/01.png" style="width: 100%;" alt="평면도">
+                </div>
+            </div>
+            <!-- 매장 현황 종료-->
+        </div>
+        <!-- 메인 컨텐츠 영역 종료-->
+
+        <!-- 푸터 영역 시작-->
+        <footer id="footer">
+            <div id="footer-center">
+                <section class="guide">
+                    <h2 class="hidden">사이트 이용안내</h2>
+                    <ul>
+                        <li><a href="#">뉴스레터</a></li>
+                        <li><a href="#">개인정보 보호정책</a></li>
+                        <li><a href="#">채용정보</a></li>
+                    </ul>
+                </section>
+                <address>
+                    경기도 광주시 오포동 문형리
+                    · 전화: 010-6606-8607
+                    · E-MAIL: <a href="jirehseo@naver.com">jirehseo@naver.com</a>
+                </address>
+                <p class="copyright">Copyright &copy; since 2026 by Cafe 1st Floor CORPORATION ALL RIGHTS RESERVED</p>
+            </div>
+        </footer>
+        <!-- 푸터 영역 종료-->
+    </div>
+    <!-- 전체 홈페이지 영역 종료-->
+</body>
+</html>
